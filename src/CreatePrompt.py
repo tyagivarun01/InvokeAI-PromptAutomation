@@ -120,7 +120,7 @@ def remove_bracket_end(word_with_bracket):
 # Here we read the prompt files convert them to list using this function
 context = read_file_for_prompts(os.path.join(root_folder,  prompt_files, "context.txt"))
 
-# You can use the above mentioned function to create a list or You can create a comma separated list here also
+# You can use the above-mentioned function to create a list or You can create a comma separated list here also
 prefix = read_file_for_prompts(os.path.join(root_folder,  prompt_files, "your_prefix_file.txt"))
 looks = read_file_for_prompts(os.path.join(root_folder,  prompt_files, "your_looks_file.txt"))
 position = read_file_for_prompts(os.path.join(root_folder,  prompt_files, "your_position_file.txt"))

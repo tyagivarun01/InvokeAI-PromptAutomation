@@ -12,6 +12,7 @@ The request folder contains imagetotext request for Invoke AI. The request is mo
 Any number of models, checkpoints and safetensors can be used but only one is utlized at a time. While seding the rewuest a random scheduler and a random seed is generated which helps in random image generation.
 
 The prompts also includes negative prompting that can be used during the generation. Fill it will desiered keywords.
+You can refer to context.txt for how the files can be structured.
 
 Important: Keywords must be seperated with a space. Comma, opening and closing brackets are removed automatically.
 
