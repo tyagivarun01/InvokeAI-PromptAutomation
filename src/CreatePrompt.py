@@ -7,11 +7,10 @@ import os
 #Root of execution src folder
 src_folder = os.path.dirname(os.path.abspath(__file__))
 root_folder = os.path.abspath(os.path.join(src_folder, '..'))
-print(root_folder)
 
-#Requests folder
+#Requests folder path
 requests_folder = r'..\InvokeRequests'
-#Prompt files folder
+#Prompt files folder path 
 prompt_files = r'PromptFiles'
 
 # Reading the Invoke Json Request from file
@@ -130,6 +129,7 @@ temperature  = []
 negative_influence = read_file_for_prompts(os.path.join(root_folder,  prompt_files, "your_prefix_file.txt"))
 additional_instructions = read_file_for_prompts(os.path.join(root_folder,  prompt_files, "your_prefix_file.txt"))
 
+# Function to create a string out of given words from keywords
 def list_to_string(chosen_lists):
     prompt = " "
     return prompt.join(chosen_lists)
