@@ -10,7 +10,7 @@ root_folder = os.path.abspath(os.path.join(src_folder, '..'))
 
 #Requests folder path
 requests_folder = r'..\InvokeRequests'
-#Prompt files folder path 
+#Prompt files folder path
 prompt_files = r'PromptFiles'
 
 # Reading the Invoke Json Request from file

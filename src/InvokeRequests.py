@@ -29,7 +29,8 @@ def set_parameters():
     initial_prompt = initial_prompt + ", " + k.list_to_string(location_choices)
     initial_prompt = initial_prompt + ", " + k.list_to_string(image_type_choices)
     initial_prompt = initial_prompt + ", " + k.list_to_string(additional_instructions_choice)
-    
+
+    # Final creation of Prompt after a keywords are turned into a String
     automated_created_prompt = initial_prompt
     print(automated_created_prompt)
     negative_influence_prompt = random.sample(k.negative_influence, 20)
